@@ -18,3 +18,13 @@ I wrote a web application called Learning Log that will allow users to register 
 
 http://itis-learning-log.herokuapp.com/
 
+
+### How to start the application
+
+1. Download code.
+2. To run it on your system in the terminal where the project is located enter:
+
+1) 'pip install virtualenv' # The virtual environment will be established
+2) 'virtualenv env' # Then a virtual environment will be created. The virtual environment is called 'env' (you can name it whatever you like)
+3) 'env\Scripts\activate' (Windows) # Virtual environment activation
+4) 'pip install -r requirements.txt' # Then the dependencies are installed using pip and they will be installed in the virtual environment 'env'
